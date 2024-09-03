@@ -21,40 +21,33 @@ import uaa.elias.animales.animals.terrestre.Serpiente;
 
 
 public class InstanceHandler {
+    
     public InstanceHandler() {}
+    
+    Armadillo armadillo = new Armadillo("arma", 1);
+    Avestruz avestruz = new Avestruz("ave", 1);
+    Coyote coyote = new Coyote("coyote", 1);
+    Cocodrilo cocodrilo = new Cocodrilo("crocs", 1);
+    Delfin delfin = new Delfin("delfin feliz", 1);
+    Foca foca = new Foca("foca", 1);
+    Komodo komodo = new Komodo("komodo", 1);
+    Ornitorrinco ornitorrinco = new Ornitorrinco("perry", 1);
+    Perico perico = new Perico("perico", 1);
+    Rana rana = new Rana("ranita", 1);
+    Serpiente serpiente = new Serpiente("mamba negra", 1);
 
     public static void instanciandoAnimales() {
-        Armadillo armadillo = new Armadillo("arma", 1);
         armadillo.caminar();
-
-        Avestruz avestruz = new Avestruz("ave", 1);
-        avestruz.caminar();
-
-        Coyote coyote = new Coyote("coyote", 1);
+        avestruz.amamantar();
         coyote.caminar();
-
-        Cocodrilo cocodrilo = new Cocodrilo("crocs", 1);
         cocodrilo.reptar();
-
-        Delfin delfin = new Delfin("delfin feliz", 1);
         delfin.nadar();
-
-        Foca foca = new Foca("foca", 1);
         foca.nadar();
-
-        Komodo komodo = new Komodo("komodo", 1);
         komodo.reptar();
-
-        Ornitorrinco ornitorrinco = new Ornitorrinco("perry", 1);
         ornitorrinco.nadar();
-
-        Perico perico = new Perico("perico", 1);
         perico.volar();
-
-        Rana rana = new Rana("ranita", 1);
         rana.nadar();
-
-        Serpiente serpiente = new Serpiente("mamba negra", 1);
         serpiente.reptar();
     }
+
 }
