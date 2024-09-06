@@ -7,11 +7,11 @@ public class Ornitorrinco extends Animal implements Anfibio {
     public Ornitorrinco(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void nadar() {
         System.out.println("nadando");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

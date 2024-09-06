@@ -5,15 +5,15 @@ import uaa.elias.animales.interfaces.Mamifero;
 import uaa.elias.animales.interfaces.Terrestre;
 
 public class Elefante extends Animal implements Mamifero, Terrestre {
-    public Elefante(string nombre, int edad) {
+    public Elefante(String nombre, int edad) {
         super(nombre, edad);
     }
 
-    @override
+    @Override
     public void amamantar() {
         System.out.println("amamantando a mis crias");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

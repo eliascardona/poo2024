@@ -9,11 +9,11 @@ public class Gallina extends Animal implements Mamifero, Terrestre {
         super(nombre, edad);
     }
 
-    @override
+    @Override
     public void amamantar() {
         System.out.println("la gallina tambien amamanta a sus crias, siendo que es oviparo");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

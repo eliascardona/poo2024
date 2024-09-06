@@ -7,7 +7,7 @@ public class Perico extends Animal implements Aereo {
     public Perico(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void volar() {
         System.out.println("soy un ave que vuela");
     }

@@ -7,7 +7,7 @@ public class SerpienteMarina extends Animal implements Acuatico {
     public SerpienteMarina(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void nadar() {
         System.out.println("soy una serpiente que vive en el agua");
     }

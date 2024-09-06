@@ -9,11 +9,11 @@ public class Coyote extends Animal implements Mamifero, Terrestre {
         super(nombre, edad);
     }
 
-    @override
+    @Override
     public void amamantar() {
         System.out.println("este animal esta amamantando a sus crias");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

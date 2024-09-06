@@ -7,7 +7,7 @@ public class Aguila extends Animal implements Aereo {
     public Aguila(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void volar() {
         System.out.println("soy un ave que vuela");
     }

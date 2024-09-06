@@ -7,7 +7,7 @@ public class Paloma extends Animal implements Aereo {
     public Paloma(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void volar() {
         System.out.println("soy un ave que vuela");
     }

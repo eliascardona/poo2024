@@ -8,11 +8,11 @@ public class Marmota extends Animal implements Mamifero, Terrestre {
     public Marmota(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void amamantar() {
         System.out.println("la pequenia marmota esta tomando leche de su madre");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

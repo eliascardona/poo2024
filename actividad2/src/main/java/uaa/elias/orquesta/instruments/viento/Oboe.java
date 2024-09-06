@@ -1,11 +1,11 @@
-package uaa.elias.orquesta.instruments;
+package uaa.elias.orquesta.instruments.viento;
 
 import uaa.elias.orquesta.base.Instrumento;
-import uaa.elias.orquesta.interfaces.ICuerda;
+import uaa.elias.orquesta.interfaces.IViento;
 
 
-public class Guitarra extends Instrumento implements ICuerda {
-    public Guitarra(String nombre, int edad) {
+public class Oboe extends Instrumento implements IViento {
+    public Oboe(String nombre, int edad) {
         super(nombre, edad);
     }
 

@@ -7,7 +7,7 @@ public class Pato extends Animal implements Anfibio {
     public Pato(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void nadar() {
         System.out.println("estoy nadando");
     }

@@ -2,11 +2,11 @@ package uaa.elias.orquesta.base;
 
 public class Instrumento {
     private String nombre;
-    private int edad;
+    private int antiguedad;
 
-    public Instrumento(String nombre, int edad) {
+    public Instrumento(String nombre, int antiguedad) {
         this.nombre = nombre;
-        this.edad = edad;
+        this.antiguedad= antiguedad;
     }
 
     public String getNombre() {
@@ -17,11 +17,11 @@ public class Instrumento {
         this.nombre = nombre;
     }
 
-    public int getEdad() {
-        return edad;
+    public int getAntiguedad() {
+        return antiguedad;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setAntiguedad(int antiguedad) {
+        this.antiguedad= antiguedad;
     }
 }

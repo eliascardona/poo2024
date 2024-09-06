@@ -7,7 +7,7 @@ public class Komodo extends Animal implements Reptil {
     public Komodo(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void reptar() {
         System.out.println("este komodo se desliza por la tierra durante km");
     }

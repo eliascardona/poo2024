@@ -7,7 +7,7 @@ public class Tiburon extends Animal implements Acuatico {
     public Tiburon(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void nadar() {
         System.out.println("soy un tiburon, por fuerza debo de nadar");
     }

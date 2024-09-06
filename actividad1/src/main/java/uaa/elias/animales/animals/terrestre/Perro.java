@@ -8,11 +8,11 @@ public class Perro extends Animal implements Mamifero, Terrestre {
     public Perro(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void amamantar() {
         System.out.println("las perras tienen glandulas mamarias muy notorias, pueden tener mas de una cria por embarazo");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

@@ -7,7 +7,7 @@ public class Serpiente extends Animal implements Reptil {
     public Serpiente(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void reptar() {
         System.out.println("esta serpiente se desliza por la tierra durante km");
     }

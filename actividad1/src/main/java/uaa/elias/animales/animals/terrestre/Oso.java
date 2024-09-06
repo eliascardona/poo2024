@@ -8,11 +8,11 @@ public class Oso extends Animal implements Mamifero, Terrestre {
     public Oso(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void amamantar() {
         System.out.println("la madre de los osesnos esta alimentando a sus crias");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

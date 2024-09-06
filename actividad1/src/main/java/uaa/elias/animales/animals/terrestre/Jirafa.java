@@ -4,12 +4,12 @@ import uaa.elias.animales.base.Animal;
 import uaa.elias.animales.interfaces.Mamifero;
 import uaa.elias.animales.interfaces.Terrestre;
 
-public class Jirafa extends Animal implements Mamifero, Terrestre {
+public class Jirafa extends Animal implements Terrestre {
     public Jirafa(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
-    public void amamantar() {
+    @Override
+    public void caminar() {
         System.out.println("la jirafa bebe litros de leche");
     }
 }

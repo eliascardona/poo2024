@@ -8,11 +8,11 @@ public class Leon extends Animal implements Mamifero, Terrestre {
     public Leon(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void amamantar() {
         System.out.println("los pequenos leones toman leche de su madre");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

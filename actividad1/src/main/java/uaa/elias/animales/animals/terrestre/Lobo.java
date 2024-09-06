@@ -8,11 +8,11 @@ public class Lobo extends Animal implements Mamifero, Terrestre {
     public Lobo(String nombre, int edad) {
         super(nombre, edad);
     }
-    @override
+    @Override
     public void amamantar() {
         System.out.println("la manada de lobos bebe es alimentada por sus madres");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }

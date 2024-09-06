@@ -9,11 +9,11 @@ public class Gorila extends Animal implements Mamifero, Terrestre {
         super(nombre, edad);
     }
 
-    @override
+    @Override
     public void amamantar() {
         System.out.println("los gorilas amamantan a sus crias, ademas se gestan en el utero de sus madres");
     }
-    @override
+    @Override
     public void caminar() {
         System.out.println("caminando");
     }
